@@ -7,16 +7,10 @@
 
 /*Import de components*/
 .icono-wpp {
-  display: flex;
-  align-self: baseline;
   position: sticky;
   top: 0;
   height: 50px;
   padding: 0.5em;
-}
-
-main {
-  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
