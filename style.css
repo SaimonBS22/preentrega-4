@@ -1,51 +1,22 @@
-body, html {
+* {
   margin: 0;
   padding: 0;
-  height: 100%;
-  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.container {
-  height: 100%;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-}
-
-.content {
+/*Import de components*/
+.icono-wpp {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
+  align-self: baseline;
+  position: sticky;
+  top: 0;
+  height: 50px;
+  padding: 0.5em;
 }
 
-.reveal {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeIn 1s forwards;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-/* Add a delay for each reveal element */
-.reveal:nth-child(1) {
-  animation-delay: 0.5s;
-}
-
-.reveal:nth-child(2) {
-  animation-delay: 1s;
-}
-
-.reveal:nth-child(3) {
-  animation-delay: 1.5s;
-}
-
-.reveal:nth-child(4) {
-  animation-delay: 2s;
+main {
+  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */

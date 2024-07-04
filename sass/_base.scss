@@ -1,50 +1,24 @@
-body, html {
+*{
     margin: 0;
     padding: 0;
-    height: 100%;
-    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.container {
-    height: 100%;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.reveal {
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeIn 1s forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-        transform: translateY(0);
+@mixin mq-500{
+    @media(max-width:500px){
+        @content;
     }
 }
 
-/* Add a delay for each reveal element */
-.reveal:nth-child(1) {
-    animation-delay: 0.5s;
+@mixin mq-501-1023{
+    @media(min-width: 501px) and (max-width: 1023px){
+        @content;
+    }
 }
 
-.reveal:nth-child(2) {
-    animation-delay: 1s;
-}
-
-.reveal:nth-child(3) {
-    animation-delay: 1.5s;
-}
-
-.reveal:nth-child(4) {
-    animation-delay: 2s;
+@mixin mq-1024{
+    @media(min-width: 1024px){
+        @content;
+    }
 }
