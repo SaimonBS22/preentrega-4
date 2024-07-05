@@ -7,10 +7,11 @@
 
 /*Import de components*/
 .icono-wpp {
-  position: sticky;
-  top: 0;
-  height: 50px;
-  padding: 0.5em;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 35px;
+  width: 35px;
 }
 
 /*# sourceMappingURL=style.css.map */
