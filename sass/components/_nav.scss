@@ -1,0 +1,14 @@
+.nav-index{
+    display: flex;
+    justify-content: space-around;
+    a{
+        text-decoration: none;
+        color: black;
+        margin: 5px;
+    
+    &:hover{
+        font-size: larger;
+        text-decoration: underline;
+    }
+}
+}

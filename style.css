@@ -5,13 +5,36 @@
   font-family: "Times New Roman", Times, serif;
 }
 
+/*Import de pages*/
+@media (min-width: 1024px) {
+  .container-index {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 /*Import de components*/
+/*@include mq-1024{*/
 .icono-wpp {
   position: fixed;
   bottom: 20px;
   right: 20px;
   height: 35px;
   width: 35px;
+  background-color: white;
+}
+
+.nav-index {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-index a {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}
+.nav-index a:hover {
+  font-size: larger;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
