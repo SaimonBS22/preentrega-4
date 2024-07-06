@@ -2,10 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "wittgenstein-general";
   background-color: rgb(75, 74, 74);
 }
 
+@font-face {
+  font-family: "wittgenstein-general";
+  src: url(../static/Wittgenstein-Bold.ttf);
+}
 @media (min-width: 1024px) {
   .container-index {
     display: flex;
