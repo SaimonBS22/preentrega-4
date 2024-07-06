@@ -5,23 +5,35 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-/*Import de pages*/
 @media (min-width: 1024px) {
   .container-index {
     display: flex;
     justify-content: space-between;
   }
+  .div-header-index {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1%;
+  }
+  .div-header-index2 {
+    margin: 1%;
+  }
 }
-/*Import de components*/
-/*@include mq-1024{*/
-.icono-wpp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  height: 35px;
-  width: 35px;
+@media (min-width: 1024px) {
+  .icono-wpp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 35px;
+    width: 35px;
+  }
+  .img-logo {
+    height: 125px;
+    width: 125px;
+    border-radius: 55px;
+  }
 }
-
 .nav-index {
   display: flex;
   justify-content: space-around;
@@ -34,6 +46,12 @@
 .nav-index a:hover {
   font-size: larger;
   text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+  .h1-index {
+    font-size: 35px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

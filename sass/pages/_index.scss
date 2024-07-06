@@ -1,6 +1,13 @@
 @include mq-1024{
     .container-index{
-        display: flex;
-        justify-content: space-between;
+        @include flex (space-between);
+    }
+    .div-header-index{
+        @include flex(space-around);
+        align-items: center;
+        margin: 1%;
+    }
+    .div-header-index2{
+        margin: 1%;
     }
 }

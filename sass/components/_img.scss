@@ -1,4 +1,4 @@
-/*@include mq-1024{*/
+@include mq-1024{
 .icono-wpp{
     position: fixed;
     bottom: 20px;
@@ -6,4 +6,10 @@
     height: 35px;
     width: 35px;
 
+}
+.img-logo{
+    height: 125px;
+    width: 125px;
+    border-radius: 55px;
+}
 }
