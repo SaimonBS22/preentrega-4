@@ -14,6 +14,7 @@
   .container-index {
     display: flex;
     justify-content: space-between;
+    border-bottom: solid 2px black;
   }
   .div-header-index {
     display: flex;
@@ -24,6 +25,47 @@
   }
   .div-header-index2 {
     margin: 0.5%;
+  }
+  .conteiner-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 2px black;
+  }
+  .div-footer {
+    margin-left: 5%;
+  }
+  .div-footer2 {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .div-footer3 {
+    display: flex;
+    justify-content: none;
+    flex-direction: column;
+    margin-right: 2%;
+  }
+  .div-footer-instagram {
+    display: flex;
+    justify-content: none;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .div-footer-mail {
+    display: flex;
+    justify-content: none;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .div-footer-twitter {
+    display: flex;
+    justify-content: none;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .foto-redes {
+    height: 25px;
+    width: 25px;
   }
 }
 @media (min-width: 1024px) {
@@ -41,24 +83,33 @@
     border: solid 2px black;
   }
 }
-.nav-index {
-  display: flex;
-  justify-content: space-around;
+@media (min-width: 1024px) {
+  .nav-index {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav-index a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+  }
+  .nav-index a:hover {
+    font-size: larger;
+    text-decoration: underline;
+  }
 }
-.nav-index a {
-  text-decoration: none;
-  color: black;
-  margin: 5px;
-}
-.nav-index a:hover {
-  font-size: larger;
-  text-decoration: underline;
-}
-
 @media (min-width: 1024px) {
   .h1-index {
     font-size: 35px;
     color: black;
+  }
+}
+@media (min-width: 1024px) {
+  .parrafo-footer {
+    font-family: "wittgenstein-general";
+    color: black;
+    font-weight: 300;
+    width: 300px;
   }
 }
 
