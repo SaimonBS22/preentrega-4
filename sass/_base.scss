@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(75, 74, 74);
 }
+
+$border: solid 2px black;
 
 @mixin mq-500{
     @media(max-width:500px){

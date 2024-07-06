@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
+  background-color: rgb(75, 74, 74);
 }
 
 @media (min-width: 1024px) {
@@ -15,9 +16,10 @@
     justify-content: space-around;
     align-items: center;
     margin: 1%;
+    gap: 1rem;
   }
   .div-header-index2 {
-    margin: 1%;
+    margin: 0.5%;
   }
 }
 @media (min-width: 1024px) {
@@ -29,9 +31,10 @@
     width: 35px;
   }
   .img-logo {
-    height: 125px;
-    width: 125px;
+    height: 100px;
+    width: 100px;
     border-radius: 55px;
+    border: solid 2px black;
   }
 }
 .nav-index {
@@ -51,6 +54,7 @@
 @media (min-width: 1024px) {
   .h1-index {
     font-size: 35px;
+    color: black;
   }
 }
 
