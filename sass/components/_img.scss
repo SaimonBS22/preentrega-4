@@ -1,3 +1,24 @@
+@include mq-501-1023{
+    .icono-wpp{
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        height: 35px;
+        width: 35px;
+    
+    }
+    .img-logo{
+        height: 85px;
+        width: 85px;
+        border-radius: 35px;
+    }
+    .foto-redes{
+        height: 15px;
+        width: 15px;
+    }
+}
 @include mq-1024{
 .icono-wpp{
     position: fixed;
@@ -12,5 +33,9 @@
     width: 100px;
     border-radius: 55px;
     border: $border;
+}
+.foto-redes{
+    height: 25px;
+    width: 25px;
 }
 }

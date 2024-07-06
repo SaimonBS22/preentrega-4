@@ -1,3 +1,19 @@
+@include mq-501-1023{
+    .nav-index{
+        @include flex(space-around);
+        a{
+            text-decoration: none;
+            color: black;
+            margin: 5px;
+            font-size: small;
+        
+        &:hover{
+            font-size: larger;
+            text-decoration: underline;
+        }
+    }
+    }
+}
 @include mq-1024{
 .nav-index{
     @include flex(space-around);
