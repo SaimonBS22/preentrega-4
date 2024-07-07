@@ -25,28 +25,28 @@
 
     .div-footer2{
         margin-top: 2%;
-        margin-left: 2%;
     }
 
     .div-footer3{
         @include flex(none);
         flex-direction: column;
+        margin-top: 2%;
         
     }
 
     .div-footer-instagram{
         @include flex(none);
-        flex-direction: row;
+        flex-direction: column;
         gap: 5px;
     }
     .div-footer-mail{
         @include flex(none);
-        flex-direction: row;
+        flex-direction: column;
         gap: 5px
     }
     .div-footer-twitter{
         @include flex(none);
-        flex-direction: row;
+        flex-direction: column;
         gap: 5px;
     }
 }
