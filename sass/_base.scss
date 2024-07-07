@@ -37,3 +37,10 @@ $border: solid 2px black;
     justify-content: $justify;
     flex-wrap: wrap;
 }
+
+@keyframes fadein{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

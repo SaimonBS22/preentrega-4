@@ -122,6 +122,19 @@
         margin: 0.5%;
     }
 
+    .conteiner-main{
+        @include flex(space-around);
+        align-items: center;
+        /*overflow-y: scroll;
+        scroll-snap-type: y mandatory;*/
+    }
+   
+    .div-main-index1{
+        @include flex(space-around);
+        align-items: center;
+        gap: 75px;
+    }
+
     .conteiner-footer{
         @include flex(space-between);
         align-items: center;
