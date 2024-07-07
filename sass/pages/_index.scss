@@ -6,6 +6,7 @@
     .div-header-index{
         @include flex(space-around);
         align-items: center;
+        flex-direction: column;
         margin: 1%;
         gap: 1rem;
     }
@@ -14,23 +15,27 @@
     }
 
     .conteiner-footer{
-        @include flex(space-between);
+        @include flex(space-around);
+        flex-direction: column;
         align-items: center;
         border-top: $border;
     }
 
     .div-footer{
+        margin-top: 5%;
         margin-left: 5%;
     }
 
     .div-footer2{
-        margin-top: 2%;
+        margin-top: 5%;
+        margin-left: 3%;
     }
 
     .div-footer3{
         @include flex(none);
         flex-direction: column;
-        margin-top: 2%;
+        margin-top: 5%;
+        margin-left: 3%;
         
     }
 
