@@ -1,4 +1,56 @@
-@include mq-501-1023{
+@include mq-767{
+    .container-index{
+        @include flex (space-between);
+        border-bottom: $border;
+    }
+    .div-header-index{
+        @include flex(space-around);
+        align-items: center;
+        margin: 1%;
+        gap: 1rem;
+    }
+    .div-header-index2{
+        margin: 0.5%;
+    }
+
+    .conteiner-footer{
+        @include flex(space-between);
+        align-items: center;
+        border-top: $border;
+    }
+
+    .div-footer{
+        margin-left: 5%;
+    }
+
+    .div-footer2{
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .div-footer3{
+        @include flex(none);
+        flex-direction: column;
+        
+    }
+
+    .div-footer-instagram{
+        @include flex(none);
+        flex-direction: row;
+        gap: 5px;
+    }
+    .div-footer-mail{
+        @include flex(none);
+        flex-direction: row;
+        gap: 5px
+    }
+    .div-footer-twitter{
+        @include flex(none);
+        flex-direction: row;
+        gap: 5px;
+    }
+}
+@include mq-768-1023{
     .container-index{
         @include flex (space-between);
         border-bottom: $border;

@@ -10,15 +10,17 @@
   font-family: "wittgenstein-general";
   src: url(../static/Wittgenstein-Bold.ttf);
 }
-@media (min-width: 501px) and (max-width: 1023px) {
+@media (max-width: 767px) {
   .container-index {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     border-bottom: solid 2px black;
   }
   .div-header-index {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     margin: 1%;
     gap: 1rem;
@@ -29,6 +31,7 @@
   .conteiner-footer {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     border-top: solid 2px black;
   }
@@ -42,24 +45,88 @@
   .div-footer3 {
     display: flex;
     justify-content: none;
+    flex-wrap: wrap;
     flex-direction: column;
-    margin-right: 2%;
   }
   .div-footer-instagram {
     display: flex;
     justify-content: none;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 5px;
   }
   .div-footer-mail {
     display: flex;
     justify-content: none;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 5px;
   }
   .div-footer-twitter {
     display: flex;
     justify-content: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container-index {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: solid 2px black;
+  }
+  .div-header-index {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1%;
+    gap: 1rem;
+  }
+  .div-header-index2 {
+    margin: 0.5%;
+  }
+  .conteiner-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: solid 2px black;
+  }
+  .div-footer {
+    margin-left: 5%;
+  }
+  .div-footer2 {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .div-footer3 {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 2%;
+  }
+  .div-footer-instagram {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .div-footer-mail {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .div-footer-twitter {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 5px;
   }
@@ -68,11 +135,13 @@
   .container-index {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     border-bottom: solid 2px black;
   }
   .div-header-index {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     margin: 1%;
     gap: 1rem;
@@ -83,6 +152,7 @@
   .conteiner-footer {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     border-top: solid 2px black;
   }
@@ -96,35 +166,59 @@
   .div-footer3 {
     display: flex;
     justify-content: none;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-right: 2%;
   }
   .div-footer-instagram {
     display: flex;
     justify-content: none;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 5px;
   }
   .div-footer-mail {
     display: flex;
     justify-content: none;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 5px;
   }
   .div-footer-twitter {
     display: flex;
     justify-content: none;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 5px;
   }
 }
-@media (min-width: 501px) and (max-width: 1023px) {
+@media (max-width: 767px) {
   .icono-wpp {
     display: flex;
     flex-wrap: wrap;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 5%;
+    right: 5%;
+    height: 35px;
+    width: 35px;
+  }
+  .img-logo {
+    height: 65px;
+    width: 65px;
+    border-radius: 15px;
+  }
+  .foto-redes {
+    height: 15px;
+    width: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .icono-wpp {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
     height: 35px;
     width: 35px;
   }
@@ -157,10 +251,28 @@
     width: 25px;
   }
 }
-@media (min-width: 501px) and (max-width: 1023px) {
+@media (max-width: 767px) {
   .nav-index {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .nav-index a {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    font-size: small;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .nav-index {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
   .nav-index a {
     text-decoration: none;
@@ -177,6 +289,7 @@
   .nav-index {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
   .nav-index a {
     text-decoration: none;
@@ -188,7 +301,13 @@
     text-decoration: underline;
   }
 }
-@media (min-width: 501px) and (max-width: 1023px) {
+@media (max-width: 767px) {
+  .h1-index {
+    font-size: 15px;
+    color: black;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
   .h1-index {
     font-size: 20px;
     color: black;
@@ -200,7 +319,16 @@
     color: black;
   }
 }
-@media (min-width: 501px) and (max-width: 1023px) {
+@media (max-width: 767px) {
+  .parrafo-footer {
+    font-family: "wittgenstein-general";
+    color: black;
+    font-weight: 300;
+    width: 250px;
+    font-size: small;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
   .parrafo-footer {
     font-family: "wittgenstein-general";
     color: black;

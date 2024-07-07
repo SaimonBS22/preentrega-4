@@ -14,14 +14,14 @@
 $border: solid 2px black;
 
 
-@mixin mq-500{
-    @media(max-width:500px){
+@mixin mq-767{
+    @media(max-width:767px){
         @content;
     }
 }
 
-@mixin mq-501-1023{
-    @media(min-width: 501px) and (max-width: 1023px){
+@mixin mq-768-1023{
+    @media(min-width: 768px) and (max-width: 1023px){
         @content;
     }
 }
@@ -35,4 +35,5 @@ $border: solid 2px black;
 @mixin flex($justify){
     display: flex;
     justify-content: $justify;
+    flex-wrap: wrap;
 }

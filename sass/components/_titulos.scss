@@ -1,4 +1,10 @@
-@include mq-501-1023{
+@include mq-767{
+    .h1-index{
+        font-size: 15px;
+        color: black;
+    }
+}
+@include mq-768-1023{
     .h1-index{
         font-size: 20px;
         color: black;

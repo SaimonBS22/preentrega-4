@@ -1,4 +1,17 @@
-@include mq-501-1023{
+@include mq-767{
+    .nav-index{
+        @include flex(space-around);
+        a{
+            @include flex(none);
+            flex-direction: column;
+            text-decoration: none;
+            color: black;
+            margin: 5px;
+            font-size: small;
+    }
+    }
+}
+@include mq-768-1023{
     .nav-index{
         @include flex(space-around);
         a{
