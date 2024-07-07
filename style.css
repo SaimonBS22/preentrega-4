@@ -165,8 +165,6 @@
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    /*overflow-y: scroll;
-    scroll-snap-type: y mandatory;*/
   }
   .div-main-index1 {
     display: flex;
@@ -286,7 +284,7 @@
     animation: fadein 1s forwards;
   }
   .img-main-index:nth-child(1) {
-    animation-delay: 0.5s;
+    animation-delay: 0.3s;
   }
 }
 @media (max-width: 767px) {
@@ -398,7 +396,7 @@
     color: black;
   }
   .parrafo-main-index:nth-child(2) {
-    animation-delay: 0.5s;
+    animation-delay: 0.3s;
   }
 }
 

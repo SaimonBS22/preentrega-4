@@ -125,8 +125,6 @@
     .conteiner-main{
         @include flex(space-around);
         align-items: center;
-        /*overflow-y: scroll;
-        scroll-snap-type: y mandatory;*/
     }
    
     .div-main-index1{
