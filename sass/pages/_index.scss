@@ -13,7 +13,30 @@
     .div-header-index2{
         margin: 0.5%;
     }
+    /*----MAIN INDEX----*/
+    .conteiner-main-index1{
+        @include flex(space-around);
+        align-items: center;
+        margin-bottom: 15%;
+    }
+   
+    .div-main-index1{
+        @include flex(space-around);
+        align-items: center;
+        gap: 75px;
+    }
+    .conteiner-main-index2{
+        @include flex(space-around);
+        align-items: center;
+    }
 
+    .div-main-index2{
+        @include flex(space-around);
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+/*INICIO FOOTER*/
     .conteiner-footer{
         @include flex(space-around);
         flex-direction: column;
@@ -70,12 +93,36 @@
         margin: 0.5%;
     }
 
+
+    /*----MAIN INDEX----*/
+    .conteiner-main-index1{
+        @include flex(space-around);
+        align-items: center;
+        margin-bottom: 15%;
+    }
+   
+    .div-main-index1{
+        @include flex(space-around);
+        align-items: center;
+        gap: 75px;
+    }
+    .conteiner-main-index2{
+        @include flex(space-around);
+        align-items: center;
+    }
+
+    .div-main-index2{
+        @include flex(space-around);
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    /*----INICIO FOOTER----*/
     .conteiner-footer{
         @include flex(space-between);
         align-items: center;
         border-top: $border;
     }
-
     .div-footer{
         margin-left: 5%;
     }
@@ -108,6 +155,7 @@
     }
 }
 @include mq-1024{
+    /*----HEADER INDEX----*/
     .container-index{
         @include flex (space-between);
         border-bottom: $border;
@@ -121,10 +169,11 @@
     .div-header-index2{
         margin: 0.5%;
     }
-
-    .conteiner-main{
+/*----MAIN INDEX----*/
+    .conteiner-main-index1{
         @include flex(space-around);
         align-items: center;
+        margin-bottom: 15%;
     }
    
     .div-main-index1{
@@ -132,7 +181,18 @@
         align-items: center;
         gap: 75px;
     }
+    .conteiner-main-index2{
+        @include flex(space-around);
+        align-items: center;
+    }
 
+    .div-main-index2{
+        @include flex(space-around);
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+/*----FOOTER INDEX----*/
     .conteiner-footer{
         @include flex(space-between);
         align-items: center;

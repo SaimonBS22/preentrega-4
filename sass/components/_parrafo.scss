@@ -1,29 +1,195 @@
 @include mq-767{
-    .parrafo-footer{
+    .parrafo-main-index{
+        margin-top: 5%;
+        margin-bottom: 5%;
         font-family: 'wittgenstein-general';
-        color: black;
-        font-weight: 300;
-        width: 250px;
-        font-size: x-small;
+        font-size: xx-small;
+        width: 100px;
+        color:whitesmoke;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 0.3s;
+        strong{
+            color: black;
+        }
     }
-}
-@include mq-768-1023{
+    .parrafo-main-index2{
+        color: whitesmoke;
+        width: 250px;
+        align-self: flex-start;
+        margin-top: 10%;
+        font-size: small;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 0.3s;
+        strong{
+            color: black;
+        }
+    }
+    .parrafo-main-index3{
+        color: whitesmoke;
+        width: 250px;
+        align-self: flex-end;
+        font-size: small;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 0.9s;
+        strong{
+            color: black;
+        }
+    }
+    .parrafo-main-index4{
+        color: whitesmoke;
+        width: 250px;
+        align-self: flex-start;
+        font-size: small;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 1.5s;
+        strong{
+            color: black;
+        }
+    }
+    .parrafo-main-index5{
+        color: whitesmoke;
+        width: 250px;
+        align-self: flex-end;
+        font-size: small;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 1.8s;
+        strong{
+            color: black;
+        }
+    }
+    .parrafo-main-index6{
+        color: whitesmoke;
+        width: 250px;
+        align-self: flex-start;
+        font-size: small;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 2.5s;
+        strong{
+            color: black;
+        }
+    }
+
+    /*----INICIO FOOTER----*/
     .parrafo-footer{
         font-family: 'wittgenstein-general';
-        color: black;
+        color: whitesmoke;
         font-weight: 300;
         width: 250px;
         font-size: small;
+        strong{
+            color: black;
+        }
+}
+}
+@include mq-768-1023{
     }
+    .parrafo-main-index{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-family: 'wittgenstein-general';
+        font-size: small;
+        width: 575px;
+        color:whitesmoke;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 0.3s;
+        strong{
+            color: black;
+        }
+    }
+    .parrafo-main-index2{
+        color: whitesmoke;
+        width: 250px;
+        align-self: flex-start;
+        margin-top: 10%;
+        font-size: small;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 0.3s;
+        strong{
+            color: black;
+        }
+    }
+    .parrafo-main-index3{
+        color: whitesmoke;
+        width: 250px;
+        align-self: flex-end;
+        font-size: small;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 0.9s;
+        strong{
+            color: black;
+        }
+    }
+    .parrafo-main-index4{
+        color: whitesmoke;
+        width: 250px;
+        align-self: flex-start;
+        font-size: small;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 1.5s;
+        strong{
+            color: black;
+        }
+    }
+    .parrafo-main-index5{
+        color: whitesmoke;
+        width: 250px;
+        align-self: flex-end;
+        font-size: small;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 1.8s;
+        strong{
+            color: black;
+        }
+    }
+    .parrafo-main-index6{
+        color: whitesmoke;
+        width: 250px;
+        align-self: flex-start;
+        font-size: small;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 2.5s;
+        strong{
+            color: black;
+        }
+    }
+
+    /*----INICIO FOOTER----*/
+    .parrafo-footer{
+        font-family: 'wittgenstein-general';
+        color: whitesmoke;
+        font-weight: 300;
+        width: 250px;
+        font-size: small;
+        strong{
+            color: black;
+        }
 }
 @include mq-1024{
-.parrafo-footer{
-    font-family: 'wittgenstein-general';
-    color: black;
-    font-weight: 300;
-    width: 300px;
-}
-
+/*----INICIO MAIN----*/
 .parrafo-main-index{
     margin-top: 5%;
     margin-bottom: 5%;
@@ -34,12 +200,85 @@
     opacity: 0;
     transform: translateY(20px);
     animation: fadein 1s forwards;
+    animation-delay: 0.3s;
     strong{
         color: black;
     }
 }
-
-.parrafo-main-index:nth-child(2){
+.parrafo-main-index2{
+    color: whitesmoke;
+    width: 350px;
+    align-self: flex-start;
+    margin-top: 10%;
+    font-size: large;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
     animation-delay: 0.3s;
+    strong{
+        color: black;
+    }
+}
+.parrafo-main-index3{
+    color: whitesmoke;
+    width: 350px;
+    align-self: flex-end;
+    font-size: large;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 0.9s;
+    strong{
+        color: black;
+    }
+}
+.parrafo-main-index4{
+    color: whitesmoke;
+    width: 350px;
+    align-self: flex-start;
+    font-size: large;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 1.5s;
+    strong{
+        color: black;
+    }
+}
+.parrafo-main-index5{
+    color: whitesmoke;
+    width: 350px;
+    align-self: flex-end;
+    font-size: large;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 1.8s;
+    strong{
+        color: black;
+    }
+}
+.parrafo-main-index6{
+    color: whitesmoke;
+    width: 350px;
+    align-self: flex-start;
+    font-size: large;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 2.5s;
+    strong{
+        color: black;
+    }
+}
+/*INICIO FOOTER*/
+.parrafo-footer{
+    font-family: 'wittgenstein-general';
+    color: whitesmoke;
+    font-weight: 300;
+    width: 300px;
+    strong{
+        color: black;
+    }
 }
 }

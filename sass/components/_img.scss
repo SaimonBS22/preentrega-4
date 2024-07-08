@@ -1,12 +1,13 @@
 @include mq-767{
     .icono-wpp{
-        display: flex;
+        display: none;
+        /*display: flex;
         flex-wrap: wrap;
         position: fixed;
         bottom: 5%;
         right: 5%;
         height: 35px;
-        width: 35px;
+        width: 35px;*/
     
     }
     .img-logo{
@@ -17,6 +18,17 @@
     .foto-redes{
         height: 15px;
         width: 15px;
+    }
+    .img-main-index{
+        width: 120px;
+        height: 120px;
+        margin-top: 10%;
+        border-radius: 45px;
+        box-shadow: 20px 20px 20px black;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 0.3s;
     }
 }
 @include mq-768-1023{
@@ -38,6 +50,16 @@
     .foto-redes{
         height: 15px;
         width: 15px;
+    }
+    .img-main-index{
+        width: 220px;
+        height: 220px;
+        border-radius: 75px;
+        box-shadow: 20px 20px 20px black;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 0.3s;
     }
 }
 @include mq-1024{
@@ -68,9 +90,6 @@
     opacity: 0;
     transform: translateY(20px);
     animation: fadein 1s forwards;
-}
-
-.img-main-index:nth-child(1){
     animation-delay: 0.3s;
 }
 }
