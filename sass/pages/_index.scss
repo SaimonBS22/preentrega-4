@@ -213,17 +213,20 @@
 
     .div-footer{
         margin-left: 5%;
+        margin-top: 5%;
     }
 
     .div-footer2{
         margin-top: 2%;
         margin-left: 2%;
+        margin-top: 5%;
     }
 
     .div-footer3{
         @include flex(none);
         flex-direction: column;
         margin-right: 2%;
+        margin-top: 5%;
     }
 
     .div-footer-instagram{
