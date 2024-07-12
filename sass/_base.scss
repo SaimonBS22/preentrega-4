@@ -44,3 +44,12 @@ $border: solid 2px black;
         transform: translateY(0);
     }
 }
+
+@keyframes zoomIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }

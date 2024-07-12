@@ -1,0 +1,82 @@
+@include mq-767{
+    .conteiner-main-mdp{
+        @include flex(space-between);
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .div-main-mdp1{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        align-self: center;
+        animation: zoomIn 2s forwards;
+    }
+    .div-main-mdp2{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        align-items: center;
+        animation: zoomIn 4s forwards;
+    }
+    .div-main-mdp3{
+        margin-top: 15%;
+        margin-bottom: 10%;
+        margin-right: 5%;
+        align-items: center;
+        animation: zoomIn 6s forwards;
+    }
+} 
+@include mq-768-1023{
+    .conteiner-main-mdp{
+        @include flex(space-between);
+        align-items: center;
+    }
+
+    .div-main-mdp1{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        align-self: center;
+        animation: zoomIn 2s forwards;
+    }
+    .div-main-mdp2{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        align-items: center;
+        animation: zoomIn 4s forwards;
+    }
+    .div-main-mdp3{
+        margin-top: 15%;
+        margin-bottom: 10%;
+        margin-right: 5%;
+        align-items: center;
+        animation: zoomIn 6s forwards;
+    }
+} 
+@include mq-1024{
+    .conteiner-main-mdp{
+        @include flex(space-between);
+        align-items: center;
+    }
+
+    .div-main-mdp1{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        align-self: center;
+        animation: zoomIn 2s forwards;
+    }
+    .div-main-mdp2{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        align-items: center;
+        animation: zoomIn 4s forwards;
+    }
+    .div-main-mdp3{
+        margin-top: 15%;
+        margin-bottom: 10%;
+        margin-right: 5%;
+        align-items: center;
+        animation: zoomIn 6s forwards;
+    }
+}

@@ -98,6 +98,22 @@
     color: black;
     font-size: x-small;
 }
+/*----METODOS DE PAGO----*/
+.parrafo-mdp1{
+    width: 50vw;
+    margin-left: 40%;
+    font-size: large;
+ }
+ .parrafo-mdp2{
+    width: 50vw;
+    margin-left: 25%;
+    font-size: large;
+ }
+ .parrafo-mdp3{
+    width: 50vw;
+    margin-left: 40%;
+    font-size: large;
+ }
 }
 @include mq-768-1023{
     .parrafo-main-index{
@@ -204,6 +220,29 @@
     color: black;
     font-size: smaller;
 }
+/*----METODOS DE PAGO----*/
+.parrafo-mdp1{
+    margin-left: 30%;
+    font-size: large;
+    &:hover{
+        font-size: x-large;
+    }
+ }
+ .parrafo-mdp2{
+    width: 100%;
+    margin-left: 15%;
+    font-size: large;
+    &:hover{
+        font-size: x-large;
+    }
+ }
+ .parrafo-mdp3{
+    margin-left: 30%;
+    font-size: large;
+    &:hover{
+        font-size: x-large;
+    }
+ }
 }
 @include mq-1024{
 /*----INICIO MAIN----*/
@@ -302,5 +341,29 @@
 /*----SERVICIOS----*/
  .parrafo-main-servicios{
     color:black;
+ }
+
+ /*----METODOS DE PAGO----*/
+ .parrafo-mdp1{
+    margin-left: 30%;
+    font-size: large;
+    &:hover{
+        font-size: x-large;
+    }
+ }
+ .parrafo-mdp2{
+    width: 100%;
+    margin-left: 15%;
+    font-size: large;
+    &:hover{
+        font-size: x-large;
+    }
+ }
+ .parrafo-mdp3{
+    margin-left: 30%;
+    font-size: large;
+    &:hover{
+        font-size: x-large;
+    }
  }
 }

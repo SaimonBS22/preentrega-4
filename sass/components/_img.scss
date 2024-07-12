@@ -30,6 +30,11 @@
         animation: fadein 1s forwards;
         animation-delay: 0.3s;
     }
+     /*----METODOS DE PAGO----*/
+.img-mdp{
+    width: 50vw;
+    height: 50vw;
+}
 }
 @include mq-768-1023{
     .icono-wpp{
@@ -61,6 +66,11 @@
         animation: fadein 1s forwards;
         animation-delay: 0.3s;
     }
+    /*----METODOS DE PAGO----*/
+.img-mdp{
+    width: 200px;
+    height: 200px;
+}
 }
 @include mq-1024{
 .icono-wpp{
@@ -91,5 +101,11 @@
     transform: translateY(20px);
     animation: fadein 1s forwards;
     animation-delay: 0.3s;
+}
+
+/*----METODOS DE PAGO----*/
+.img-mdp{
+    width: 250px;
+    height: 250px;
 }
 }
