@@ -92,9 +92,14 @@
             color: black;
         }
 }
+
+/*----SERVICIOS----*/
+.parrafo-main-servicios{
+    color: black;
+    font-size: x-small;
+}
 }
 @include mq-768-1023{
-    }
     .parrafo-main-index{
         margin-top: 5%;
         margin-bottom: 5%;
@@ -187,6 +192,18 @@
         strong{
             color: black;
         }
+
+        /*----SERVICIOS----*/
+ .parrafo-main-servicios{
+    color:black;
+    font-size:smaller ;
+ }
+}
+/*----SERVICIOS----*/
+.parrafo-main-servicios{
+    color: black;
+    font-size: smaller;
+}
 }
 @include mq-1024{
 /*----INICIO MAIN----*/

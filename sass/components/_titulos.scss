@@ -7,7 +7,7 @@
     .h2-main-index{
         font-weight: bolder;
         font-size: medium;
-        color: whitesmoke;
+        color: black;
         align-self: center;
         margin-left: 40%;
         width: 100%;
@@ -15,6 +15,12 @@
         transform: translateY(20px);
         animation: fadein 1s forwards;
         animation-delay: 0.3s;
+    }
+    /*----SERVICIOS----*/
+    .h2-main-servicios{
+        color: black;
+        font-weight: 500;
+        font-size: larger;
     }
 }
 @include mq-768-1023{
@@ -25,7 +31,7 @@
     .h2-main-index{
         font-weight: bolder;
         font-size: medium;
-        color: whitesmoke;
+        color: black;
         align-self: center;
         margin-left: 40%;
         width: 250px;
@@ -33,6 +39,12 @@
         transform: translateY(20px);
         animation: fadein 1s forwards;
         animation-delay: 0.3s;
+    }
+    /*----SERVICIOS----*/
+    .h2-main-servicios{
+        color: black;
+        font-weight: 500;
+        font-size: larger;
     }
 }
 @include mq-1024{
@@ -43,7 +55,7 @@
 
     .h2-main-index{
         font-weight: bolder;
-        color: whitesmoke;
+        color: black;
         margin-left: 450px;
         width: 600px;
         align-self: center;
