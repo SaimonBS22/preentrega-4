@@ -1,0 +1,52 @@
+@include mq-1024{
+    .conteiner-main-clientes1{
+        @include flex(center);
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .div-main-clientes1{
+        margin-top: 5%;
+    }
+
+    .div-main-clientes1-1{
+        @include flex(space-between);
+        gap: 15rem;
+        margin-bottom: 5%;
+    }
+
+    .conteiner-main-clientes2{
+        @include flex(center);
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .div-main-clientes2{
+        margin-top: 5%;
+    }
+
+    .div-main-clientes2-2{
+        @include flex(space-between);
+        gap: 15rem;
+        margin-bottom: 5%;
+    }
+
+    .conteiner-main-clientes3{
+        @include flex(center);
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .div-main-clientes3{
+        margin-top: 5%;
+    }
+
+    .div-main-clientes3-3{
+        @include flex(space-between);
+        gap: 15rem;
+        margin-bottom: 5%;
+    }
+}

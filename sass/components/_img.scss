@@ -36,6 +36,10 @@
     height: 50vw;
 }
 }
+
+
+
+
 @include mq-768-1023{
     .icono-wpp{
         display: flex;
@@ -72,6 +76,10 @@
     height: 200px;
 }
 }
+
+
+
+
 @include mq-1024{
 .icono-wpp{
     position: fixed;
@@ -107,5 +115,14 @@
 .img-mdp{
     width: 250px;
     height: 250px;
+}
+
+/*----CLIENTES----*/
+.img-cliente1{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 20px 0 20px 0;
+   transform: translateX(-100%);
+    animation: slideIn 1s forwards;
 }
 }
