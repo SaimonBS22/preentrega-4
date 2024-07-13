@@ -22,6 +22,19 @@
         font-weight: 500;
         font-size: larger;
     }
+
+    /*----CONTACTO----*/
+    .h2-main-contacto{
+        color: black;
+        font-size: medium;
+        font-family:"wittgenstein-general" ;
+    }
+    .h3-main-contacto{
+        color: black;
+        width: 250px;
+        font-size: small;
+        font-family:"wittgenstein-general" ;
+    }
 }
 @include mq-768-1023{
     .h1-index{
@@ -46,6 +59,29 @@
         font-weight: 500;
         font-size: larger;
     }
+
+    /*----CONTACTO----*/
+    .h2-main-contacto{
+        color: black;
+        font-family:"wittgenstein-general" ;
+        overflow: hidden;
+        border-right: .15em solid black;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    }
+    .h3-main-contacto{
+        color: black;
+        font-size: large;
+        font-family:"wittgenstein-general" ;
+        overflow: hidden;
+        border-right: .15em solid black;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    }
 }
 @include mq-1024{
     .h1-index{
@@ -64,8 +100,32 @@
         animation: fadein 1s forwards;
         animation-delay: 0.3s;
     }
+    /*----SERVICIOS---*/
     .h2-main-servicios{
         color: black;
         font-weight: 500;
+    }
+
+    /*----CONTACTO----*/
+    .h2-main-contacto{
+        color: black;
+        font-family:"wittgenstein-general" ;
+        overflow: hidden;
+        border-right: .15em solid black;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    }
+    .h3-main-contacto{
+        color: black;
+        font-size: larger;
+        font-family:"wittgenstein-general" ;
+        overflow: hidden;
+        border-right: .15em solid black;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
     }
 }

@@ -1,0 +1,69 @@
+@include mq-767{
+    .conteiner-main-contacto1{
+        @include flex(center);
+        align-items: center
+    }
+    .div-main-contacto1{
+        margin-top: 5%;
+    }
+    .conteiner-main-contacto2{
+        @include flex(center);
+        align-items: center;
+    }
+    .div-main-contacto2{
+        @include flex(none);
+        flex-direction: column;
+        margin-bottom: 15%;
+        margin-top: 5%;
+    }
+    #contacto{
+        @include flex(none);
+        flex-direction: column;
+    }
+    }
+@include mq-768-1023{
+    .conteiner-main-contacto1{
+        @include flex(center);
+        align-items: center
+    }
+    .div-main-contacto1{
+        margin-top: 5%;
+    }
+    .conteiner-main-contacto2{
+        @include flex(center);
+        align-items: center;
+    }
+    .div-main-contacto2{
+        @include flex(none);
+        flex-direction: column;
+        margin-bottom: 15%;
+        margin-top: 5%;
+    }
+    #contacto{
+        @include flex(none);
+        flex-direction: column;
+    }
+    }
+@include mq-1024{
+.conteiner-main-contacto1{
+    @include flex(center);
+    align-items: center
+}
+.div-main-contacto1{
+    margin-top: 5%;
+}
+.conteiner-main-contacto2{
+    @include flex(center);
+    align-items: center;
+}
+.div-main-contacto2{
+    @include flex(none);
+    flex-direction: column;
+    margin-bottom: 15%;
+    margin-top: 5%;
+}
+#contacto{
+    @include flex(none);
+    flex-direction: column;
+}
+}

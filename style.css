@@ -24,6 +24,22 @@
     transform: scale(1);
   }
 }
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
 @media (max-width: 767px) {
   .container-index {
     display: flex;
@@ -85,7 +101,7 @@
   /*INICIO FOOTER*/
   .conteiner-footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
@@ -95,11 +111,9 @@
   }
   .div-footer {
     margin-top: 5%;
-    margin-left: 5%;
   }
   .div-footer2 {
     margin-top: 5%;
-    margin-left: 3%;
   }
   .div-footer3 {
     display: flex;
@@ -107,7 +121,6 @@
     flex-wrap: wrap;
     flex-direction: column;
     margin-top: 5%;
-    margin-left: 3%;
   }
   .div-footer-instagram {
     display: flex;
@@ -643,6 +656,99 @@
   }
 }
 @media (max-width: 767px) {
+  .conteiner-main-contacto1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .div-main-contacto1 {
+    margin-top: 5%;
+  }
+  .conteiner-main-contacto2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .div-main-contacto2 {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 15%;
+    margin-top: 5%;
+  }
+  #contacto {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .conteiner-main-contacto1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .div-main-contacto1 {
+    margin-top: 5%;
+  }
+  .conteiner-main-contacto2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .div-main-contacto2 {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 15%;
+    margin-top: 5%;
+  }
+  #contacto {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1024px) {
+  .conteiner-main-contacto1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .div-main-contacto1 {
+    margin-top: 5%;
+  }
+  .conteiner-main-contacto2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .div-main-contacto2 {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 15%;
+    margin-top: 5%;
+  }
+  #contacto {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
   .icono-wpp {
     display: none;
     /*display: flex;
@@ -822,6 +928,18 @@
     font-weight: 500;
     font-size: larger;
   }
+  /*----CONTACTO----*/
+  .h2-main-contacto {
+    color: black;
+    font-size: medium;
+    font-family: "wittgenstein-general";
+  }
+  .h3-main-contacto {
+    color: black;
+    width: 250px;
+    font-size: small;
+    font-family: "wittgenstein-general";
+  }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .h1-index {
@@ -846,6 +964,28 @@
     font-weight: 500;
     font-size: larger;
   }
+  /*----CONTACTO----*/
+  .h2-main-contacto {
+    color: black;
+    font-family: "wittgenstein-general";
+    overflow: hidden;
+    border-right: 0.15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  .h3-main-contacto {
+    color: black;
+    font-size: large;
+    font-family: "wittgenstein-general";
+    overflow: hidden;
+    border-right: 0.15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
 }
 @media (min-width: 1024px) {
   .h1-index {
@@ -863,9 +1003,32 @@
     animation: fadein 1s forwards;
     animation-delay: 0.3s;
   }
+  /*----SERVICIOS---*/
   .h2-main-servicios {
     color: black;
     font-weight: 500;
+  }
+  /*----CONTACTO----*/
+  .h2-main-contacto {
+    color: black;
+    font-family: "wittgenstein-general";
+    overflow: hidden;
+    border-right: 0.15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  .h3-main-contacto {
+    color: black;
+    font-size: larger;
+    font-family: "wittgenstein-general";
+    overflow: hidden;
+    border-right: 0.15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
   }
 }
 @media (max-width: 767px) {
@@ -886,7 +1049,7 @@
   }
   .parrafo-main-index2 {
     color: whitesmoke;
-    width: 16rem;
+    width: 50vw;
     align-self: flex-start;
     margin-top: 10%;
     font-size: small;
@@ -955,7 +1118,7 @@
     font-family: "wittgenstein-general";
     color: whitesmoke;
     font-weight: 300;
-    width: 16rem;
+    width: 50vw;
     font-size: small;
   }
   .parrafo-footer strong {
@@ -1265,6 +1428,314 @@
   .a-mdp {
     text-decoration: underline;
     color: black;
+  }
+}
+@media (max-width: 767px) {
+  #contacto {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 7px;
+  }
+  #label1 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 3.5s;
+    font-size: smaller;
+  }
+  #label2 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 3.8s;
+    font-size: smaller;
+  }
+  #label3 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.1s;
+    font-size: smaller;
+  }
+  #label4 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.4s;
+    font-size: smaller;
+  }
+  #label5 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.7s;
+    font-size: smaller;
+  }
+  #nombre-completo {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 3.5s;
+    font-size: smaller;
+  }
+  #correo-electronico {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 3.8s;
+    font-size: smaller;
+  }
+  #numero-de-telefono {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.1s;
+    font-size: smaller;
+  }
+  #empresa {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.4s;
+    font-size: smaller;
+  }
+  #mensaje {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.7s;
+    font-size: smaller;
+  }
+  #boton {
+    margin-top: 5%;
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 5s;
+    font-size: smaller;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #contacto {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 7px;
+  }
+  #label1 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 3.5s;
+  }
+  #label2 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 3.8s;
+  }
+  #label3 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.1s;
+  }
+  #label4 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.4s;
+  }
+  #label5 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.7s;
+  }
+  #nombre-completo {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 3.5s;
+  }
+  #correo-electronico {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 3.8s;
+  }
+  #numero-de-telefono {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.1s;
+  }
+  #empresa {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.4s;
+  }
+  #mensaje {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.7s;
+  }
+  #boton {
+    margin-top: 5%;
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 5s;
+  }
+}
+@media (min-width: 1024px) {
+  #contacto {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 7px;
+  }
+  #label1 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 3.5s;
+  }
+  #label2 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 3.8s;
+  }
+  #label3 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.1s;
+  }
+  #label4 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.4s;
+  }
+  #label5 {
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.7s;
+  }
+  #nombre-completo {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 3.5s;
+  }
+  #correo-electronico {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 3.8s;
+  }
+  #numero-de-telefono {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.1s;
+  }
+  #empresa {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.4s;
+  }
+  #mensaje {
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 4.7s;
+  }
+  #boton {
+    margin-top: 5%;
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 5s;
   }
 }
 
