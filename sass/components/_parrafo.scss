@@ -113,7 +113,21 @@
     margin-left: 40%;
     font-size: large;
  }
+
+  /*----CLIENTES----*/
+  .parrafo-clientes{
+    color: black;
+    font-size: medium;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 0.5s;
+ }
 }
+
+
+
+
 @include mq-768-1023{
     .parrafo-main-index{
         margin-top: 5%;
@@ -242,7 +256,20 @@
         font-size: x-large;
     }
  }
+
+ /*----CLIENTES----*/
+ .parrafo-clientes{
+    color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 0.5s;
+ }
 }
+
+
+
+
 @include mq-1024{
 /*----INICIO MAIN----*/
 .parrafo-main-index{
@@ -369,5 +396,9 @@
  /*----CLIENTES----*/
  .parrafo-clientes{
     color: black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadein 1s forwards;
+    animation-delay: 0.5s;
  }
 }

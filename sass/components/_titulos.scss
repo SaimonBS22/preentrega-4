@@ -35,6 +35,18 @@
         font-size: small;
         font-family:"wittgenstein-general" ;
     }
+
+
+    /*----CLIENTES----*/
+    .h2-clientes{
+        color: black;
+        font-weight: bold;
+        font-size: large;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 0.5s;
+    }
 }
 
 
@@ -86,6 +98,16 @@
         margin: 0 auto;
         letter-spacing: .15em;
         animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    }
+
+     /*----CLIENTES----*/
+     .h2-clientes{
+        color: black;
+        font-weight: bold;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 0.5s;
     }
 }
 
@@ -143,5 +165,9 @@
     .h2-clientes{
         color: black;
         font-weight: bold;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadein 1s forwards;
+        animation-delay: 0.5s;
     }
 }

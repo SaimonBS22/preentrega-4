@@ -35,6 +35,15 @@
     width: 50vw;
     height: 50vw;
 }
+
+/*----CLIENTES----*/
+.img-cliente1{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 20px 0 20px 0;
+   transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+}
 }
 
 
@@ -74,6 +83,15 @@
 .img-mdp{
     width: 200px;
     height: 200px;
+}
+
+/*----CLIENTES----*/
+.img-cliente1{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 20px 0 20px 0;
+   transform: translateX(-100%);
+    animation: slideIn 1s forwards;
 }
 }
 
